@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
-    "name": "Переводчик MiWiFi",
+    "name": "Переводчик MiWiFi и загрузчика Breed",
     "short_name": "MiWiFi",
     "version": "0.0.1",
-    "description": "Перевод прошивок MiWiFi на русский язык",
+    "description": "Перевод прошивок MiWiFi и загрузчика Breed на русский язык",
     "offline_enabled": true,
     "content_scripts": [
         {
