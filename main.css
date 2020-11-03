@@ -1,0 +1,35 @@
+body {
+    position: relative;
+    font-family: Consolas, monospace!important;
+}
+
+#nav ul li.active {
+    font-weight: normal;
+}
+
+#nav ul li a {
+    font-size: 16px;
+}
+
+#dropmenu {
+    width: 190px;
+}
+
+div.mod-netmap > div {
+    display: flex;
+    margin: 0 150px;
+}
+
+div.mod-netmap > div > div.devices {
+    position: relative;
+    left: -20px;
+}
+
+div.mod-netmap > div > div.router {
+    margin: auto
+}
+
+div.mod-netmap > div > div.internet {
+    position: relative;
+    right: -20px;
+}

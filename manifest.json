@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Переводчик MiWiFi",
+    "short_name": "MiWiFi",
+    "version": "0.0.1",
+    "description": "Перевод прошивок MiWiFi на русский язык",
+    "offline_enabled": true,
+    "content_scripts": [
+        {
+            "matches": [
+                "http://192.168.1.1/*",
+                "http://192.168.31.1/*",
+                "http://miwifi.com/*"
+            ],
+            "css": [
+                "main.css"
+            ],
+            "js": [
+                "languages/cn.js",
+                "languages/ru.js",
+                "main.js"
+            ]
+        }
+    ]
+}
